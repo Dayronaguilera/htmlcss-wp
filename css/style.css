@@ -10,12 +10,6 @@
     clear: both;
 
 }
-/* utility class */
-
-
-
-
-/* fine utility class */
 body{
     width: 1200px;    
 }
@@ -23,6 +17,14 @@ body{
     width: 70%;
     margin: auto;
 }
+/* utility class */
+
+
+
+
+
+
+/* fine utility class */
 .logo{
     height: 60px;
     border-right: 1px black solid;
@@ -35,35 +37,49 @@ body{
     margin-top: 5px;
 }
 /* inizio table */
-ul{
-    list-style: none;
-}
 li{
+    list-style: none;
     display: inline-block;
     margin-left: 7px;
 }
 /* fine table */
-.contenitore-1{
-    background-color: rgb(146, 199, 42);
+
+/* section 1  */
+.img{
+    background: url(../img/banner.jpg);
+    background-color: olive;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 50%;
     height: 270px;
+    width: 100%;
     margin-top: 7px;
 }
-.section-1{
+
+h2{
+    font-size: 20px;
+}
+p{
+    font-size: 10px;
+}
+/* section 2  */
+.section-2{
     margin: 7px 0px;
 }
 .fl{
     float: left;
 }
 /* contenuto section 2 */
-.fl>div,.top>div{
+.fl>div{
     background-color: rgb(110, 200, 236);
     width: 100%;
     height: 100%;
 }
 .top{
-    background-color: rgb(32 5, 149);
-    height: 30px;
+    margin: 15px 0px;
+    height: 50px;
 }
+
 .left{
     background-color: rgb(26, 94, 221) ;
     width: 25%;

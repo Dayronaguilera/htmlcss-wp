@@ -1,4 +1,7 @@
-
+html{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(199, 195, 195);
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -18,6 +21,14 @@ body{
     margin: auto;
 }
 /* utility class */
+p,span{
+    font-size: 10px;
+}
+h2,h1{
+    font-size: 25px;
+}
+
+
 
 
 
@@ -36,6 +47,9 @@ body{
     height: 40px;
     margin-top: 5px;
 }
+h6{
+    font-size: 13px;
+}
 /* inizio table */
 li{
     list-style: none;
@@ -45,27 +59,34 @@ li{
 /* fine table */
 
 /* section 1  */
+.section-1{
+    height: 270px;
+    width: 100%;
+    margin-top: 3px;
+}
 .img{
     background: url(../img/banner.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: 50% 50%;
+    background-position: center;
+    padding: 30px 0px;
+    border-radius: 10px;
+    /*
     height: 270px;
     width: 100%;
     margin-top: 7px;
+    border: 1px black solid;
+    */
 }
 .text-img{
-    padding: 170px 170px 30px 30px;
-}
-h2{
-    font-size: 20px;
-}
-p{
-    font-size: 10px;
+    padding: 190px 190px 30px 30px;
 }
 /* section 2  */
 .section-2{
     margin: 7px 0px;
+}
+h1{
+    color: black;
 }
 .fl{
     float: left;
@@ -105,6 +126,8 @@ section 2 */
     background-size: cover;
     width: 100%;
     height: 160px;
+    border-radius: 10px;
+    border: 1px black solid;
 }
 .url-2{
     background: url(../img/banner-2.jpg);
@@ -112,6 +135,8 @@ section 2 */
     background-size: cover; 
     width: 100%;
     height: 160px;
+    border-radius: 10px;
+    border: 1px black solid;
 }
 .url-3{
     background: url(../img/img-3.jpg);
@@ -119,10 +144,16 @@ section 2 */
     background-size: cover; 
     width: 100%;
     height: 160px;
+    border-radius: 10px;
+    border: 1px black solid;
 }
 /* il footer */
 .contenitore-footer{
     height: 20px;
-    margin-bottom: 15px;
     text-align: center;
+    font-size: 30px;
+    
+}
+.hearts{
+    color: red;
 }

@@ -54,7 +54,9 @@ li{
     width: 100%;
     margin-top: 7px;
 }
-
+.text-img{
+    padding: 170px 170px 30px 30px;
+}
 h2{
     font-size: 20px;
 }
@@ -82,20 +84,17 @@ section 2 */
 }
 
 .left{
-    background-color: rgb(26, 94, 221) ;
     width: 25%;
     padding: 10px 10px 10px 0px;
     height: 300px;
 }
 .center{
-    background-color: rgb(26, 94, 221);
     width: 50%;
     padding: 10px 2px;
     height: 300px;
     
 }
 .right{
-    background-color: rgb(26, 94, 221);
     width: 25%;
     padding: 10px 0px 10px 10px;
     height: 300px;
@@ -123,7 +122,7 @@ section 2 */
 }
 /* il footer */
 .contenitore-footer{
-    background-color: rgb(149, 44, 149);
     height: 20px;
-    margin-bottom: 7px;
+    margin-bottom: 15px;
+    text-align: center;
 }

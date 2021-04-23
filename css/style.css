@@ -47,7 +47,6 @@ li{
 /* section 1  */
 .img{
     background: url(../img/banner.jpg);
-    background-color: olive;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: 50% 50%;
@@ -69,12 +68,14 @@ p{
 .fl{
     float: left;
 }
-/* contenuto section 2 */
+/* contenuto 
 .fl>div{
     background-color: rgb(110, 200, 236);
     width: 100%;
     height: 100%;
 }
+section 2 */
+
 .top{
     margin: 15px 0px;
     height: 50px;
@@ -91,13 +92,34 @@ p{
     width: 50%;
     padding: 10px 2px;
     height: 300px;
-
+    
 }
 .right{
     background-color: rgb(26, 94, 221);
     width: 25%;
     padding: 10px 0px 10px 10px;
     height: 300px;
+}
+.url-1{
+    background: url(../img/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 160px;
+}
+.url-2{
+    background: url(../img/banner-2.jpg);
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+    height: 160px;
+}
+.url-3{
+    background: url(../img/img-3.jpg);
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+    height: 160px;
 }
 /* il footer */
 .contenitore-footer{

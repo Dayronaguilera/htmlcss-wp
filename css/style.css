@@ -1,5 +1,5 @@
 html{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: rgb(199, 195, 195);
 }
 *{
@@ -14,12 +14,18 @@ html{
 
 }
 body{
-    width: 1200px;    
+    width: 1280px;
+    border-right: 1px black solid;    
+    border-bottom: 1px black solid;
+    margin-bottom: 10px;
+    
 }
 .centro{
     width: 70%;
     margin: auto;
+    
 }
+
 /* utility class */
 p,span{
     font-size: 10px;
@@ -27,28 +33,35 @@ p,span{
 h2,h1{
     font-size: 25px;
 }
-
-
-
-
-
+.fl p,h6{
+    margin-top: 6px;
+    
+}
+h6{
+    font-size: 13px;
+}
+#cont-float{
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+    border: 1px black solid;
+}
 
 
 
 /* fine utility class */
 .logo{
     height: 60px;
-    border-right: 1px black solid;
+    border-right: 1px rgb(199, 195, 195) solid;
     padding-right: 15px;
     margin-bottom: 10px;
 }
 
-.contenitore-header{
+.contenitore-ul{
     height: 40px;
     margin-top: 5px;
-}
-h6{
-    font-size: 13px;
 }
 /* inizio table */
 li{
@@ -69,14 +82,9 @@ li{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    padding: 30px 0px;
+    padding: 20px 0px;
     border-radius: 10px;
-    /*
-    height: 270px;
-    width: 100%;
-    margin-top: 7px;
-    border: 1px black solid;
-    */
+  
 }
 .text-img{
     padding: 190px 190px 30px 30px;
@@ -85,23 +93,18 @@ li{
 .section-2{
     margin: 7px 0px;
 }
-h1{
+strong{
+    display: inline-block;
     color: black;
+    width: 100%;
+    font-size: 25px;
+    
 }
 .fl{
     float: left;
 }
-/* contenuto 
-.fl>div{
-    background-color: rgb(110, 200, 236);
-    width: 100%;
-    height: 100%;
-}
-section 2 */
-
 .top{
-    margin: 15px 0px;
-    height: 50px;
+    margin-top: 15px;
 }
 
 .left{
@@ -120,40 +123,26 @@ section 2 */
     padding: 10px 0px 10px 10px;
     height: 300px;
 }
+
 .url-1{
     background: url(../img/img-1.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 160px;
-    border-radius: 10px;
-    border: 1px black solid;
 }
 .url-2{
     background: url(../img/banner-2.jpg);
-    background-position: center;
-    background-size: cover; 
-    width: 100%;
-    height: 160px;
-    border-radius: 10px;
-    border: 1px black solid;
 }
 .url-3{
     background: url(../img/img-3.jpg);
-    background-position: center;
-    background-size: cover; 
-    width: 100%;
-    height: 160px;
-    border-radius: 10px;
-    border: 1px black solid;
 }
+
 /* il footer */
 .contenitore-footer{
-    height: 20px;
+    height: 120px;
     text-align: center;
-    font-size: 30px;
-    
+    font-size: 10px;
+    margin-top: 20px;
+    line-height: 100px;
 }
 .hearts{
     color: red;
+    font-size: 10px;
 }
